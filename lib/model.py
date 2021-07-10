@@ -31,8 +31,4 @@ def build_model():
         optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"]
     )
 
-    # new_model.summary()
-
-    # train your model on data
-    # head_model.fit(x, y, batch_size = batch_size, verbose = 1)
     return new_model
